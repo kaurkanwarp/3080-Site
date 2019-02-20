@@ -13,12 +13,118 @@ p{
     line-height: 90%;
 }
 
-.box1 {
-    background-color: black;
-    color: yellow;
-    padding-left: 25px;
-
-}
 body {
     background-image: url("board-bunch-cooking-349609.jpg");
+}
+
+.navigation {
+    display:block;
+    margin: 10px;
+}
+
+#nav{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+#nav li {
+    float: left;
+    width: 200px; 
+    height: 30px;
+    background-color: gray;
+    border-radius: 200px;
+    opacity: .75px;
+    line-height: 30px; 
+    text-align: center;
+    margin-right: 2px;
+    color:black;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#nav li a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.BreakfastButton {
+    display: block;
+    margin: 10px;
+}
+
+#bfButton{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+#bfButton li {
+    float: left;
+    width: 200px; 
+    height: 30px;
+    background-color: gray;
+    border-radius: 200px;
+    opacity: .75px;
+    line-height: 30px; 
+    text-align: center;
+    margin-right: 2px;
+    color:black;
+}
+
+.LunchButton {
+    display: block;
+    margin: 10px;
+}
+
+#lButton{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+#lButton li {
+    float: left;
+    width: 200px; 
+    height: 30px;
+    background-color: gray;
+    border-radius: 200px;
+    opacity: .75px;
+    line-height: 30px; 
+    text-align: center;
+    margin-right: 2px;
+    color:black;
+}
+
+.DinnerButton {
+    display: block;
+    margin: 10px;
+}
+
+#dButton{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+#dButton li {
+    float: left;
+    width: 200px; 
+    height: 30px;
+    background-color: gray;
+    border-radius: 200px;
+    opacity: .75px;
+    line-height: 30px; 
+    text-align: center;
+    margin-right: 2px;
+    color:black;
 }
