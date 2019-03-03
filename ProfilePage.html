@@ -1,17 +1,33 @@
 <!DOCTYPE html> 
 <head>
     <h1>Profile Page</h1>
+        <!--This refrences the CSS page-->
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css">
+        <!--This contains the background image-->
+        <style>
+                body, html {
+                    height: 100%;
+                    margin: 0;}
+                .bg{
+                    background-image: url("Images/floor-gray-grey-8892.jpg") ;
+                    height: 100%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                </style> 
 </head>
 
 <body>
-        <div class="navigation">
-                <nav>
-                    <ul id="nav">
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="Images/Food Picture.jpg">Picture</a></li>
-                    </ul>
-
-                </nav>
-
-            </div>
+    <!--This is the Navigation Menu-->
+        <div class="bg">
+                <div class="topnav">
+                    <a class="active" href="index.html">Kaurry's Recipes</a>
+                    <div class="items">
+                            <a class="ProfileColor" href="ProfilePage.html">Profile</a>
+                            <a class="SignInPage" href="SignInPage.html">Sign In</a>
+                    </div>
+                    <!--This is the Search Bar-->
+                    <input type="text" placeholder="Search..">
+                </div>
 </body>
