@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <head>
-    <h1>Sign In Page</h1>
+   
     <!--This refrences the CSS page-->
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/SignIn.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/SignIn.css">
     <!--This contains the background image-->
     <style>
         body, html {
                  height: 100%;
                  margin: 0;}
              .bg{
-                 background-image: url("Images/blank-blank-space-close-up-942872.jpg") ;
+                 background-image: url("./Images/blank-blank-space-close-up-942872.jpg") ;
                  height: 100%;
                  background-position: center;
                  background-repeat: no-repeat;
@@ -37,37 +37,50 @@
             <!--This is the Search Bar-->
             <input type="text" placeholder="Search..">
         </div>
-        <!--First Time at Kaurry Text-->
-        <div class="SignInText">
-            <h1 >First Time at Kaurry?</h1>
-        </div>
-      
+        <h1>
+                Sign In Here
+            </h1>
+    
+       
 <br>
 
-    <!-- Notice the use of the unordered list to create a dropdown menu in the HTML form. -->
-    <div class="form1">
+<div class="wrapper">
+    <div class="box1">
+        <div class="form1">
             <form>
                 <ul class="form">
                     <li>
                         <label>Email</label>
-                        <input type="email" name="email" placeholder="johndoe@any.com"/>
+                        <input type="email" name="email" placeholder="johndoe@any.com" />
                     </li>
                     <li>
-                            <label>Password</label>
-                            <input type="password" name="Password" placeholder="Password"/>
+                        <label>Password</label>
+                        <input type="password" name="Password" placeholder="Password" />
                     </li>
-                    
-                   
+
+
                     <li>
                         <input type="submit" value="Submit" />
                     </li>
                 </ul>
-                </form>
-            </div>
+            </form>
+    </div>
+    
+    <div class="box2">
+            <!--First Time at Kaurry Text-->
+           
+                   <h1 >First Time at Kaurry?</h1>
+              
+           
+    </div>
+    
+</div>
+    
 
-        
+           
 
 
 
 
 </body>
+</html>

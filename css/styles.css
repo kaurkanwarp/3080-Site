@@ -62,7 +62,7 @@ body{
   
   .topnav a.SignInPage{
     background-color: darkgreen;
-    color: white;
+    color: white;   
     font-family: cursive;
   }
   /* Style the search box inside the navigation bar */
@@ -119,10 +119,7 @@ body{
     margin-right: 2px;
     color:black;
 }
-.dot .BreakfastButton{
-    align-content: center;
-    font-size: 47px;
-}
+
 
 /* Dot Styling */
 
@@ -140,6 +137,11 @@ body{
     padding: 30px 0;
     
   }
+
+  .dot .BreakfastButton{
+    align-content: center;
+    font-size: 47px;
+}
   .dot p{
       display: block;
       margin:0;
