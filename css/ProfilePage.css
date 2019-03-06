@@ -46,6 +46,11 @@ a:visited{
     width: 0px;
    
 }
+
+.BurritoRecipe {
+  width: 30px;
+  height: 40%;
+}
 /*Navigation Styling*/
 
     /* Add a black background color to the top navigation bar */
@@ -263,4 +268,5 @@ a:visited{
       border: 1px solid #ccc;
     }
 
+  
   }
