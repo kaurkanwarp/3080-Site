@@ -44,6 +44,8 @@ body{
     background-color: ivory;
     color: black;
   }
+
+ 
   
   /* Style the "active" element to highlight the current page */
   .topnav a.active {
@@ -313,6 +315,7 @@ body{
     color: black;
   }
   
+
   /* Style the "active" element to highlight the current page */
   .SearchBar a.active {
     background-color: #2196F3;
