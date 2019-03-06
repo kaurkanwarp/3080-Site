@@ -1,14 +1,23 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 28%;
-}
-.ImgWithText .AddButton {
-color:pink;
-width: 0px;
 
+
+.PageRight{
+    float: right;
+    width: 20%;
+    font-size: 25px;
 }
+
+
+.left {
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    width: 10%;
+  }
+
+  .InputText{
+    padding:70px 0px;
+    background-color:white;
+  }
 /*Navigation Styling*/
 
     /* Add a black background color to the top navigation bar */
@@ -31,11 +40,10 @@ width: 0px;
       }
       
       /* Change the color of links on hover */
-      .topnav a.hover {
+      .topnav a:hover {
         background-color: ivory;
-        color:ivory;
+        color: black;
       }
-      
       
       /* Style the "active" element to highlight the current page */
       .topnav a.active {
@@ -226,8 +234,16 @@ width: 0px;
       border: 1px solid #ccc;
     }
 
-  
- 
 
 
-  }
+    
+
+
+
+
+
+    
+    
+
+    
+  }    

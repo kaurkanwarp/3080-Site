@@ -7,17 +7,17 @@
     
   }
 
-  #BurritoImg {
+  #ChickenImg {
     border-radius: 60%; 
   }
   
-  .BurritoPage {
+  .ChickenPage {
     color:black;
     font-size: 18px;
     text-align: center;
   }
   
-  .BurritoPage {
+  .ChickenPage {
     border: none;
     outline: 0;
     display: inline-block;
@@ -60,18 +60,18 @@
     
   }
   
-  #OmletteImg {
+  #FriedRiceImg {
     border-radius: 60%; 
     
   }
-  .OmlettePage {
+  .FriedRicePage {
     color:black;
     font-size: 18px;
     text-align: center;
    
   }
   
-  .OmlettePage {
+  .FriedRicePage {
     border: none;
     outline: 0;
     display: inline-block;
@@ -86,7 +86,7 @@
   a {
     text-decoration: none;
     font-size: 22px;
-    color: ivory;
+    color: black;
     text-align: center;
   }
   
@@ -109,17 +109,17 @@
     text-align: center;
   }
   
-  #ProteinShakeImg {
+  #BeefWrapImg {
     border-radius: 60%; 
   }
 
-  .ProteinShakePage {
+  .BeefWrapPage {
     color:black;
     font-size: 18px;
     text-align: center;
   }
   
-  .BProteinShakePage {
+  .BeefWrapPage {
     border: none;
     outline: 0;
     display: inline-block;

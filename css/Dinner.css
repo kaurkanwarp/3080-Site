@@ -1,14 +1,155 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 28%;
-}
-.ImgWithText .AddButton {
-color:pink;
-width: 0px;
 
+/* Card 1 */    
+.Option1 {
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 2000px;
+    margin: center;
+    text-align: center;
+    
+  }
+
+  #PastaImg {
+    border-radius: 60%; 
+  }
+  
+  .PastaPage {
+    color:black;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .PastaPage {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    font-size: 18px;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: ivory;
+    text-align: center;
+    
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+ .column1 {
+  float: left;
+  width: 30%;
+  padding: 40px 20px;
+  
+  
 }
+
+/* Card 2 */    
+.Option2 {
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 2000px;
+    margin: center;
+    text-align: center;
+    
+  }
+  
+  #SteakImg {
+    border-radius: 60%; 
+    
+  }
+  .SteakPage {
+    color:black;
+    font-size: 18px;
+    text-align: center;
+   
+  }
+  
+  .SteakPage {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: ivory;
+    text-align: center;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+ .column1 {
+  float: center;
+  width: 30%;
+  padding: 40px 20px;
+}
+
+/* Card 3 */    
+.Option3 {
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 2000px;
+    margin: center;
+    text-align: center;
+  }
+  
+  #ChickenCurryImg {
+    border-radius: 60%; 
+  }
+
+  .ChickenCurryPage {
+    color:black;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .ChickenCurryPage {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: ivory;
+    text-align: center;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+ .column1 {
+  float: center;
+  width: 30%;
+  padding: 40px 20px;
+}
+    
 /*Navigation Styling*/
 
     /* Add a black background color to the top navigation bar */
@@ -225,9 +366,5 @@ width: 0px;
     .SearchBar input[type=text] {
       border: 1px solid #ccc;
     }
-
-  
- 
-
-
-  }
+    
+  }    

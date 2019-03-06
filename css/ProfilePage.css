@@ -1,13 +1,50 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 28%;
+/* H1 Styling*/
+h1{
+    color: lavender;
+    font-family:cursive;
+    font-size: 200%;
 }
-.ImgWithText .AddButton {
-color:pink;
-width: 0px;
 
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lavender
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+  }
+.ImgWithText {
+    color: lavender;
+    
+}
+
+.InputText{
+  padding:70px 5px;
+  background-color:lightgrey;
+}
+
+.RecipeList{
+    display: inline-block;
+    vertical-align: right;
+    color: lavender;
+}
+
+a:link{
+    color:lightpink;
+}
+a:visited{
+    color:lightsalmon;
+    
+}
+
+.ImgWithText .AddButton {
+    color:pink;
+    width: 0px;
+   
 }
 /*Navigation Styling*/
 
@@ -43,8 +80,8 @@ width: 0px;
         color: white;
         font-family: cursive;
       }
-    
-     .topnav a.ProfileColor{
+      
+     .topnav a.ProfileColor {
         background-color: darkgreen;
         color: white;
         font-family: cursive;
@@ -225,9 +262,5 @@ width: 0px;
     .SearchBar input[type=text] {
       border: 1px solid #ccc;
     }
-
-  
- 
-
 
   }
