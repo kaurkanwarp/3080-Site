@@ -1,41 +1,105 @@
 <!DOCTYPE html>
 
-    <head>
-        <title> Simran's Page</title>
-        <link rel= "stylesheet" href="">
-    </head>
-    <body>
+<head>
+    <title> Simran's Class Project Page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css">
 
-        <h1>This is my Page</h1>
-        <h2> Heading 2 Example</h2>
-        <h3> Heading 3 Example</h3>
-        
-
-        <p>
-            Lorem ipsum <strong><em>dolor sit </em></strong> amet consectetur adipisicing elit. Laudantium, incidunt minima debitis sit explicabo quidem error neque ea cumque mollitia quo assumenda quia. Reiciendis sunt, laborum qui laboriosam impedit suscipit. 
-        </p>
-        <!--Below is a Line Break-->
-       <br>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;}
+        .bg{
+            background-image: url("./Images/blank-board-empty-917479.jpg") ;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
        
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quam expedita eveniet repellendus libero inventore maiores placeat voluptatibus natus, mollitia esse dolores totam sint voluptates eos, quidem, quis eius ut.
-        </p>
-        <h3> This is an Unordered List</h3> 
-            <ul>
-                <li>This is my first bullet</li>
-                <li> This is my second bullet</li>
-                <li> This is my third bullet</li>
-            </ul>
-        <h3>This is an Ordered List</h3>
-             <ol>
-                <li> This is Number 1</li>
-                <ol>
-                    <li>Sub Bullet</li>
-                </ol>
-                <li> This is Number 2</li>
-            </ol>
-            <img src="/images/Food Picture.jpg">
+    
+        </style>
+
+</head>
+
+
+<body>
+    <div class="bg">
+        <div class="topnav">
+            <a class="active" href="index.html">Kaurry's Recipes</a>
+                <a class="ProfileColor" href="ProfilePage.html">Profile</a>
+                <a class="SignInPage" href="SignInPage.html">Sign In</a>
             
-        
-    </body>
+            <!--This is the Search Bar-->
+            <input type="text" placeholder="Search..">
+        </div>
+        <div align="center">
+            <table>
+                <tr>
+                    <td colspan="3" style="vertical-align:middle; text-align: center">
+
+                        <!--This is the Circle for Breakfast-->
+                        <div class="dot">
+                            <div class="BreakfastButton">
+                                <p>
+                                    <ul id="bfButton" <button type="button" style="padding: 45px 0px">
+                                        <li><a href="Breakfast.html">Breakfast</a></li>
+                                        </button>
+                                    </ul>
+
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--This is the Circle for Lunch-->
+                        <div class="dot">
+                            <div class="LunchButton">
+                                <ul id="lButton" <button type="button" style="padding: 45px 0px">
+                                    <li><a href="Lunch.html">Lunch</a></li>
+                                    </button>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <!--This is the title of the page-->
+                    <div class="Title2">
+                        <h1>
+                            <center> Kaurry's Recipes </center>
+                        </h1>
+                    </div>
+                    </td>
+                    <td>
+
+                        <!--This is the Circle for Dinner-->
+                        <div class="dot">
+                            <div class="DinnerButton">
+                                <ul id="dButton" <button type="button" style="padding: 45px 0px">
+                                    <li><a href="Dinner.html">Dinner</a></li>
+                                    </button>
+                                </ul>
+                            </div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+</body>
+
 </html>
